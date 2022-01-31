@@ -48,6 +48,7 @@ export default function App() {
           <Link to="/rgb/192/192/192">Silver</Link>
           <Link to="/rgb/220/20/60">Crimson</Link>
           <Link to="/rgb/147/112/219">Purple</Link>
+          <Link to="/rgb/255/192/203">Pink</Link>
         </ul>
       </header>
 

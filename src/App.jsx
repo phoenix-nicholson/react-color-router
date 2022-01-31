@@ -3,6 +3,8 @@ import {
   Redirect,
   BrowserRouter as Router,
   Route,
+  Switch,
+  useParams,
 } from 'react-router-dom';
 
 import styles from './App.css';
@@ -16,7 +18,7 @@ function RGB() {
       className={styles.fill}
       style={{ background: `rgb(${r}, ${g}, ${b})` }}
     >
-      <p>{`rgb(${r},${g},${b})`}</p>
+      <p>{`rgb(${r},${g},${b})`} </p>
     </div>
   );
 }
